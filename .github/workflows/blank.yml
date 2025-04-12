@@ -18,9 +18,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - name: check uptime
-      run: uptime
-    - name: cpu info
-      run: nproc
-    - name: kernel info
-      run: /etc/os-release
+      - name: Check Uptime
+        run: uptime
+      - name: Cpu info
+        run: nproc
